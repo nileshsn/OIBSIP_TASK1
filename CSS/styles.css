@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+body{
+    background-color: #18122B;
+    color: #635985;
+    font-family: 'DM Mono', monospace;
+}
+img{
+    max-width: 250px;
+    height: auto;
+}
+.showcase{
+    background: linear-gradient(#243354,#18122B );
+}
