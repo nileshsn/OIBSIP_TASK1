@@ -217,4 +217,27 @@ ul {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+} 
+@media only screen and (max-width: 600px) {
+    .table-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+
+    .nav1 {
+        flex: 100%;
+    }
+
+    .link-grid {
+        padding-top: 4rem;
+    }
+
+    .card {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
 }
